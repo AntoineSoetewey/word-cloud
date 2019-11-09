@@ -93,13 +93,13 @@ ui <- fluidPage(
       hr(),
       colourInput("col", "Background color", value = "white"),
       hr(),
-      HTML('<p>Report a bug or request the code <a href="https://www.antoinesoetewey.com/contact/">here</a>.</p>')
+      HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/word-cloud/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/word-cloud/blob/master/app.R">code</a>. Back to <a href="https://www.antoinesoetewey.com/">www.antoinesoetewey.com</a>.</p>')
     ),
     mainPanel(
       wordcloud2Output("cloud"),
-      br(),
-      br(),
-      tags$a(href="https://www.antoinesoetewey.com/", "Back to www.antoinesoetewey.com"),
+      # br(),
+      # br(),
+      # tags$a(href="https://www.antoinesoetewey.com/", "Back to www.antoinesoetewey.com"),
       br(),
       br()
     )
@@ -124,8 +124,7 @@ tabPanel(
   em("Source: DataCamp"),
   br(),
   br(),
-  HTML('<p>Report a bug or request the code <a href="https://www.antoinesoetewey.com/contact/">here</a>.</p>'),
-  tags$a(href="https://www.antoinesoetewey.com/", "Back to www.antoinesoetewey.com"),
+  HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/word-cloud/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/word-cloud/blob/master/app.R">code</a>. Back to <a href="https://www.antoinesoetewey.com/">www.antoinesoetewey.com</a>.</p>'),
   br(),
   br()
 )

@@ -5,9 +5,8 @@ account: antoinesoetewey
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1212145
-bundleId: 2572175
+bundleId: 2576128
 url: https://antoinesoetewey.shinyapps.io/word-cloud/
-when: 1573153771.99753
+when: 1573317096.22462
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: create_wordcloud.R
