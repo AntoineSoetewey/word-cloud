@@ -29,7 +29,7 @@ ui <- fluidPage(
       # Add the selector for the language of the text
       selectInput(
         inputId = "language",
-        label = "Language of the text",
+        label = "Remove stopwords in",
         choices = c("Danish", "Dutch", "English", "Finnish", "French", "German", "Hungarian", "Italian", "Norwegian", "Portuguese", "Russian", "Spanish", "Swedish"),
         multiple = FALSE,
         selected = "English"
