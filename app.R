@@ -88,8 +88,8 @@ ui <- fluidPage(
             textAreaInput("words_to_remove10", "", rows = 1)
           ),
           hr(),
-          numericInput("num", "Maximum number of words",
-            value = 100, min = 5
+          numericInput("num", "Number of words (minimum 3)",
+            value = 100, min = 3
           ),
           hr(),
           colourInput("col", "Background color", value = "white"),
