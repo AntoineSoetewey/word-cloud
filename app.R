@@ -8,7 +8,7 @@ library(colourpicker)
 
 ui <- fluidPage(
   h1("Word Cloud"),
-  h4(tags$a(href = "https://www.antoinesoetewey.com/", "Antoine Soetewey")),
+  h4(tags$a(href = "https://antoinesoetewey.com/", "Antoine Soetewey")),
   # Create a container for tab panels
   tabsetPanel(
     # Create a "Word cloud" tab
@@ -94,7 +94,7 @@ ui <- fluidPage(
           hr(),
           colourInput("col", "Background color", value = "white"),
           hr(),
-          HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/word-cloud/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/word-cloud">code</a>. See more information about this app in this <a href="https://statsandr.com/blog/draw-a-word-cloud-with-a-shiny-app/">article</a>.</p><p>Back to <a href="https://www.antoinesoetewey.com/">antoinesoetewey.com</a> or <a href="https://statsandr.com/">statsandr.com</a>.</p>')
+          HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/word-cloud/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/word-cloud">code</a>. See more information about this app in this <a href="https://statsandr.com/blog/draw-a-word-cloud-with-a-shiny-app/">article</a>.</p><p>Back to <a href="https://antoinesoetewey.com/">antoinesoetewey.com</a> or <a href="https://statsandr.com/">statsandr.com</a>.</p>')
         ),
         mainPanel(
           wordcloud2Output("cloud"),
@@ -114,15 +114,15 @@ ui <- fluidPage(
        <li>If it is a .csv file, there should be only one column containing all words or sentences (see below for example files)</li>
        <li>Numbers and punctuations will be automatically removed, as well as stop words in the language of your choice (via the dropdown selector)</li></ul>"),
       "Example files:",
-      tags$a(href = "https://www.antoinesoetewey.com/files/ihaveadream.csv", "example.csv"),
+      tags$a(href = "https://antoinesoetewey.com/files/ihaveadream.csv", "example.csv"),
       "and",
-      tags$a(href = "https://www.antoinesoetewey.com/files/ihaveadream.txt", "example.txt"),
+      tags$a(href = "https://antoinesoetewey.com/files/ihaveadream.txt", "example.txt"),
       br(),
       br(),
       em("Source: DataCamp"),
       br(),
       br(),
-      HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/word-cloud/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/word-cloud">code</a>. See more information about this app in this <a href="https://statsandr.com/blog/draw-a-word-cloud-with-a-shiny-app/">article</a>.</p><p>Back to <a href="https://www.antoinesoetewey.com/">antoinesoetewey.com</a> or <a href="https://statsandr.com/">statsandr.com</a>.</p>'),
+      HTML('<p>Report a <a href="https://github.com/AntoineSoetewey/word-cloud/issues">bug</a> or view the <a href="https://github.com/AntoineSoetewey/word-cloud">code</a>. See more information about this app in this <a href="https://statsandr.com/blog/draw-a-word-cloud-with-a-shiny-app/">article</a>.</p><p>Back to <a href="https://antoinesoetewey.com/">antoinesoetewey.com</a> or <a href="https://statsandr.com/">statsandr.com</a>.</p>'),
       br(),
       br()
     )
